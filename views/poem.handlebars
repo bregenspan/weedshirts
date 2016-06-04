@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <title>Weedshirts.poem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">    
+</head>
+<body>
+<style>
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto 20px;
+  padding: 20px;
+  max-width: 600px;
+}
+body:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+p {
+  max-width: 70%;
+	clear: left;
+}
+em {
+  float: right;
+  font-style: normal;
+}
+footer {
+  font-size: 0.8em;
+  margin: 40px 0 20px;
+}
+</style>
+
+{{#each trademarks}}
+    <em>&trade;<a href="/tm/{{ serialNumber }}">{{ serialNumber }}</a></em>
+    <p>{{ description }}</p>
+{{/each}}
+
+<footer><a href="http://weedshirts.biz">Weedshirts.biz</a></footer>
+</body>
+</html>

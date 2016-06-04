@@ -1,0 +1,25 @@
+<button class="random" id="random">Show me another weed shirt!</button>
+
+<h3 class="word-mark">
+  TRADEMARK #<span id="serialNumber">{{ serialNumber }}</span>{{#if name}}: "<span id="name">{{ name }}</span>"{{/if}}
+</h3>
+
+<section class="shirt-area">
+  <svg class="shirt-image">
+    <use xlink:href="#shirt-icon"></use>
+  </svg>
+  <svg class="shirt-weed">
+    <use xlink:href="#weed-icon"></use>
+  </svg>
+  <figure style="background-image: url({{ imageFile }})" alt="BUTT NAKED TOKE GAME"/>
+</section>
+
+<section class="the-mark-consists-of">
+  <button class="audio" id="play">Audio &#9658;</button>
+  <p>{{ description }}</p>
+</section>
+
+<section class="owner">
+    <h4>Trademark Owner</h4>
+    {{ owner }}
+</section>

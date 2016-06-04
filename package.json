@@ -1,0 +1,32 @@
+{
+  "name": "weedshirts.biz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.0",
+    "express-handlebars": "^2.0.1",
+    "express-slash": "^2.0.1",
+    "lodash.shuffle": "^3.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "compression": "^1.5.0",
+    "event-stream": "^3.3.1",
+    "gulp": "^3.9.0",
+    "gulp-rev": "^5.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "tapjs": "^1.0.7",
+    "vinyl": "^0.5.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

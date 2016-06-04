@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <title>Weedshirts.poem</title>
+</head>
+<body>
+<style>
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    padding: 20px;
+    max-width: 600px;
+}
+p { float: left;
+max-width: 70%;
+	clear: left;
+}
+div { float: right}
+</style>
+
+{{#each trademarks}}
+    <p>{{ description }}</p>
+    <div>&trade;<a href="/tm/{{ serialNumber }}">{{ serialNumber }}</a></div>
+{{/each}}
+</body>
+</html>

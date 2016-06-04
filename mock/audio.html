@@ -1,0 +1,5 @@
+<script>
+  var msg = new SpeechSynthesisUtterance(document.querySelector('.the-mark-consists-of').textContent.substr(0, 100));
+  msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Bad News'; })[0];
+  speechSynthesis.speak(msg);
+</script>
