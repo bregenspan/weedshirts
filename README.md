@@ -8,6 +8,10 @@
 
  * `npm install`
  * `gulp`
+
+### Serve
+
+ * npm start
  
 ### Deploy
 
