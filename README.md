@@ -15,7 +15,7 @@
  
 ### Deploy
 
- * rsync --progress -avhe ssh . root@45.55.95.151:~/weedshirts
+ * rsync --progress -avhe ssh . USER@PRODUCTION_HOST:~/weedshirts
  * (on remote): PORT=80 NODE_ENV=production forever start app.js
 
 ### Why
